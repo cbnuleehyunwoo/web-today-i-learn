@@ -16,7 +16,7 @@
   <body>
     <!-- 상단 내비게이션 -->
     <nav class="top-nav">
-      <span class="nav-logo">My Page</span>
+      <span class="nav-logo">Kirby's Page</span>
       <ul class="nav-links">
         <li><a href="#about">자기소개</a></li>
         <li><a href="#gallery">갤러리</a></li>
@@ -29,12 +29,11 @@
     <section class="hero" id="about">
       <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+        <img src="./images/kirbyProfile.png" alt="커비 프로필" />
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <h1>커비</h1>
+          <p class="tagline">안녕하세요! 우아한 테크코스 모바일 안드로이드 8기 커비입니다.</p>
         </div>
       </div>
     </section>
@@ -43,7 +42,10 @@
       <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
+        <p>
+          안드로이드 개발자를 꿈꾸는 커비입니다. 문제를 해결하는 과정에서의 즐거움을 기록하고 공유하는 것을 좋아합니다. 
+          더 자세한 활동은 저의 <a href="https://github.com/cbnuleehyunwoo" target="_blank">GitHub</a> 또는 <a href="#">기술 블로그</a>에서 확인하실 수 있습니다.
+        </p>
         <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
       </section>
 
@@ -54,55 +56,110 @@
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>이현우</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>INFP</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>소설 읽기, 프라모델 조립</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>생선조림 빼고 다~</td>
           </tr>
         </table>
       </section>
 
       <!-- 나만의 갤러리 -->
-      <section class="content-section" id="gallery">
-        <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
-        <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
-        </div>
-      </section>
+    <section class="content-section" id="gallery">
+      <h2>나만의 갤러리</h2>  
+      <p class="section-desc"></p>
+      <div class="gallery-grid">
+        
+        <img src="./images/whiteGundam.png" alt="하얀 건담1" />
+        <img src="./images/whiteGundam2.png" alt="하얀 건담 2" />
+        <img src="./images/aerialGundam.png" alt="에어리얼 건담" />
+        <img src="./images/godGundam.png" alt="갓 건담 1" />
+        <img src="./images/godGundam2.png" alt="갓 건담 2" />
+        <img src="./images/wingGundam.png" alt="윙 건담" />
+        <img src="./images/gundams.png" alt="건담 단체 샷" />
+        <img src="./images/myCat.png" alt="귀여운 고양이 1" />
+        <img src="./images/myCat2.png" alt="귀여운 고양이 2" />
+        <img src="./images/myCat3.png" alt="귀여운 고양이 3" />
+        <img src="./images/myCat4.png" alt="귀여운 고양이 4" />
+      </div>
+    </section>
 
       <!-- 나를 울린 인생 작품 -->
       <section class="content-section" id="works">
-        <h2>나를 울린 인생 작품</h2>
+        <h2>재밌게 감상한 작품</h2>
+        <div class="works-list">
+
+          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
+                  <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
+        <article class="work-card">
+              <div class="work-thumbnail">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Jj5vpv65Sc0?si=jAWshT8nvwL9EIJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+              </div>
+              <div class="work-info">
+                <h3>ASIAN KUNG-FU GENERATION - Re:Re:</h3>
+              </div>
+            </article>
+          <article class="work-card">
+            <div class="work-thumbnail">
+              <img src="./images/nalGae.png" alt="날개" />
+            </div>
+            <div class="work-info">
+              <h3>이상 - 날개</h3>
+              <p>진짜 기승전결이 기가 막히다고 할 수 있겠습니다. 
+                철저히 주인공의 시점으로만 이야기가 펼쳐지기에, 주변 상황에 대해 예상하게 되는 맛이 좋습니다.
+              </p>
+            </div>
+          </article>
+             <div class="works-list">
+          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
+          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
+          <article class="work-card">
+            <div class="work-thumbnail">
+              <img src="./images/jwaeWaBu;.png" alt="죄와 벌" />
+            </div>
+            <div class="work-info">
+              <h3>표도르 도스토옙스키 - 죄와 벌</h3>
+              <p>나폴레옹 같은 세상을 변화시킨 "비범인"은, 따지고 보면, 전쟁을 일으키고, 사람을 죽였음에도, 위대한 사람으로
+                후대에 기록되는데, 이는 어찌보면 통념과 어긋납니다, 이 책에서는 그러한 내용에 대해 생각해볼 수 있는데요, 이것만으로 재밌지만 또 주인공은 자신이 비범인라고 생각해 살인을 저지르는 것에 대한 내용으로 전개됩니다. 아무튼 재밌어요!  </p>
+            </div>
+          </article>
+           <div class="works-list">
+          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
+          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
+          <article class="work-card">
+            <div class="work-thumbnail">
+              <img src="./images/violetEvergarden.png" alt="바이올렛 에버가든" />
+            </div>
+            <div class="work-info">
+              <h3>바이올렛 에버가든</h3>
+              <p>작화 GOAT, 힐링 GOAT 애니메이션</p>
+            </div>
+          </article>
         <div class="works-list">
           <!-- TODO: 최소 2가지 작품을 소개하세요 -->
           <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
           <article class="work-card">
             <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
+              <img src="./images/steinsGate.png" alt="슈타인즈 게이트" />
             </div>
             <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
+              <h3>슈타인즈 게이트</h3>
+              <p>떡밥 회수 GOAT 애니메이션</p>
             </div>
           </article>
         </div>
-      </section>
-
+        </div>
+        </div>      
       <!-- TIL (Today I Learned) -->
       <section class="content-section" id="til">
         <h2>TIL</h2>
